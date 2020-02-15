@@ -132,7 +132,7 @@ button {
   border-radius: 20px;
   color: black;
   padding: 4% 8%;
-  padding-top: 1.8%;
+  padding-top: 2%;
   height:45px;
   width:130px;
   text-align: center;
@@ -157,6 +157,7 @@ button {
   background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
+  font-size: 0.7em;
 }
 .button5 {
   background-color: white;
@@ -176,6 +177,10 @@ button {
 .knaprød{
   border:
 }
-
+.bignumber{
+  font-size: 4em;
+  margin: 0;
+  
+}
 .button4:hover {background-color: #e7e7e7;}
 .button5:hover {background-color: #e7e7e7;}
