@@ -168,14 +168,17 @@ button {
   padding: 2% 4%;
   font-size: 1.5em;
 }
-.knapgul{
-  border:
-}
 .knaporange{
-  border:
+  border: 2px solid #F7931E;
 }
-.knaprød{
-  border:
+.knaplysorange{
+  border: 2px solid#FBB03B;
+}
+.knapgul{
+  background-color: white;
+  color: black;
+  border: 2px solid #FCEE21;
+  font-size: 0.7em;
 }
 .bignumber{
   font-size: 3em;
