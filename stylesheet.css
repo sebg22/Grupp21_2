@@ -75,3 +75,23 @@ button:visited {
   }
   
   .button4:hover {background-color: #e7e7e7;}
+
+  .knaporange {
+    background-color: white;
+    color: black;
+    border: 2px solid #F7931E;
+  }
+  .knaplysorange { 
+    background-color: white;
+    color: black;
+    border: 2px solid #FBB03B;
+  }
+  
+  .knapgul{
+    background-color: white;
+    color: black;
+    border: 2px solid #FCEE21;
+  }
+  .knapgul:hover {background-color: #FCEE21;}
+  .knaporange:hover {background-color: #F7931E;}
+  .knaplysorange:hover {background-color: #FBB03B;}

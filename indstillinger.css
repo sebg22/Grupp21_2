@@ -161,26 +161,12 @@ button {
 }
 
 .button5 {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
   height: 60px;
   width: 100px;
   padding: 2% 4%;
   font-size: 1.5em;
 }
-.knaporange {
-  border: 2px solid #F7931E;
-}
-.knaplysorange { 
-  border: 2px solid#FBB03B;
-}
-.knapgul {
-  background-color: white;
-  color: black;
-  border: 2px solid #FCEE21;
-  font-size: 0.7em;
-}
+
 .bignumber{
   font-size: 3em;
   margin: 0;
@@ -190,6 +176,24 @@ button {
   padding-top:5%;
 }
 
+.knaporange {
+  background-color: white;
+  color: black;
+  border: 2px solid #F7931E;
+}
+.knaplysorange { 
+  background-color: white;
+  color: black;
+  border: 2px solid #FBB03B;
+}
+
+.knapgul{
+  background-color: white;
+  color: black;
+  border: 2px solid #FCEE21;
+}
+.knapgul:hover {background-color: #FCEE21;}
+.knaporange:hover {background-color: #F7931E;}
+.knaplysorange:hover {background-color: #FBB03B;}
 
 .button4:hover {background-color: #e7e7e7;}
-.button5:hover {background-color: #e7e7e7;}
