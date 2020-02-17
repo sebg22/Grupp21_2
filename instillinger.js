@@ -25,7 +25,9 @@ function changeColor() {
 
   if (element.className == 'colorChanger green'){
     element.className = 'colorChanger red'
+    element.innerHTML = "off";
 } else {
     element.className = 'colorChanger green'
+    element.innerHTML = "on";
 }
 }
