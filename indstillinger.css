@@ -1,6 +1,4 @@
-#knapdecoration {
-	text-decoration: none;
-}
+
 body{
   font-family: acumin-pro-wide, sans-serif;
   font-weight: 100;
@@ -9,11 +7,6 @@ body{
 img{
   width:30%;
 
-}
-.sectiontext {
-  font-family: acumin-pro-wide, sans-serif;
-  font-weight: 700;
-  font-style: normal;
 }
 .navimg{
   padding-top: 5%;
@@ -42,6 +35,10 @@ img{
 .aligncenter{
     text-align: center;
 }
+.aligncenter2{
+  text-align: center;
+  margin: 20px;
+}
 .slidecontainer {
   width: 100%;
 }
@@ -55,15 +52,7 @@ img{
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
-.slider::-webkit-slider-thumb {
-  background: #4CAF50;
-  cursor: pointer;
-}
 
-.slider::-moz-range-thumb {
-  background: #4CAF50;
-  cursor: pointer;
-}
 .slider:hover {
   opacity: 1;
 }
@@ -132,6 +121,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.buttonextra {
+  border-radius: 25px;
+  color: black;
+  padding-top: 3%;
+  height:60px;
+  width:270px;
+  font-size: 20px;
+}
 button {
   font-family: acumin-pro-wide, sans-serif;
   font-weight: 100;
@@ -175,6 +172,12 @@ button {
   padding: 2% 4%;
   font-size: 1.5em;
 }
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+.button6:hover {background-color: #e7e7e7;}
 
 .bignumber{
   font-size: 3em;
