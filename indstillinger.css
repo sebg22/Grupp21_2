@@ -18,6 +18,9 @@ img{
   opacity: 0.5;
   cursor: not-allowed;
 }
+.redbackground{
+  background-color: red;
+}
 
 .mobile-container {
     max-width: 480px;
@@ -133,10 +136,8 @@ button {
   font-family: acumin-pro-wide, sans-serif;
   font-weight: 100;
   font-style: normal;
-  background-color: yellow;
   border: none;
   border-radius: 20px;
-  color: black;
   padding: 4% 8%;
   padding-top: 2%;
   height:45px;
@@ -147,10 +148,7 @@ button {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-  button:hover {
-  background-color: #1E3C55;
-  color: black;
-}
+
   button:link {
   text-decoration: none;
   color: black;

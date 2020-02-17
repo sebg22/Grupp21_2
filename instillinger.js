@@ -19,3 +19,13 @@ output3.innerHTML = slider3.value;
 slider3.oninput = function() {
   output3.innerHTML = this.value;
 }
+
+function changeColor() {
+	var element = document.querySelector('.colorChanger')
+
+  if (element.className == 'colorChanger green'){
+    element.className = 'colorChanger red'
+} else {
+    element.className = 'colorChanger green'
+}
+}
