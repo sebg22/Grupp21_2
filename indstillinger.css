@@ -55,6 +55,15 @@ img{
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
+.slider::-webkit-slider-thumb {
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  background: #4CAF50;
+  cursor: pointer;
+}
 .slider:hover {
   opacity: 1;
 }
