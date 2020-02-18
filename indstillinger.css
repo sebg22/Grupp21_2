@@ -1,3 +1,27 @@
+/* 
+  line 25-29 body (skrifttype)
+  line 30-32 image (bredde 30%)
+  line 33-37 logo (navimg)
+  line 38-41 disabled (elev-siden sliders er disabled)
+  line 42-44 rødbaggrund class (brugt til at farve baggrunden rød)
+  line 45-53 mobilcontainer (Til at vise, hvordan den vil se ud på app)
+  line 54-56 mobilcontainer2 (bare højden til højere)
+  line 57-59 aligncenter (bare til at centrere tingene i midten)
+  line 60-63 aligncentermargin (det samme bare med lidt margin)
+  line 64-73 slider (range-slider, til at justere temperatur, lys og luftfugtigheden)
+  line 74-77 knapmargin (til at afvige fra den normale button - kun margin og bredde)
+  line 78-83 green og red class (brugt i samarbejde med javascript til at skifte farven på tænd/sluk knappen)
+  line 84-91 buttonextra (til igen at afvige fra den normale knap)
+  line 92-107 button (den normal knap)
+  line 108-115 button:link og button:visited (til at fjerne hyperlink og besøgt link)
+  line 116-121 buttonlogin (hvordan knapper ser ud på login siderne)
+  line 122-127 buttonbig (hvordan knapper ser ud på "vælg klasse" siderne)
+  line 128-131 bignumber (tal er store på indstillings siderne)
+  line 132-134 paddingtop (hvis der skal bruges lidt padding)
+  line 135-150 knapfarverne (til at style nogle af knapperne til vores design
+  line 151-154 knap:hover (hvordan knapperne reagere på hover)
+*/
+
 body{
   font-family: acumin-pro-wide, sans-serif;
   font-weight: 100;
@@ -5,13 +29,11 @@ body{
 }
 img{
   width:30%;
-
 }
 .navimg{
   padding-top: 5%;
   padding-bottom: 10%;
-  text-align: center;
-  
+  text-align: center;  
 }
 .disabled {
   opacity: 0.5;
@@ -20,7 +42,6 @@ img{
 .redbackground{
   background-color: red;
 }
-
 .mobile-container {
     max-width: 480px;
     margin: auto;
@@ -29,20 +50,16 @@ img{
     color: black;
     border-radius: 10px;
     border:solid;
-  }
-.mobile-container2{
+}
+.mobile-containerheight{
   height: 1050px;
-
 }
 .aligncenter{
     text-align: center;
 }
-.aligncenter2{
+.aligncentermargin{
   text-align: center;
   margin: 20px;
-}
-.slidecontainer {
-  width: 100%;
 }
 .slider {
   -webkit-appearance: none;
@@ -54,14 +71,6 @@ img{
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
-
-.slider:hover {
-  opacity: 1;
-}
-.slider2 { 
-  transition: opacity .2s;
-}
-
 .knapmargin{
   margin: 5%;
   width: 13%;
@@ -71,57 +80,6 @@ img{
 }
 .red{
   background-color: red;
-}
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 18px;
-  width: 18px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-input:checked + .slider {
-  background-color: #2196F3;
-}
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-input:checked + .slider:before {
-  -webkit-transform: translateX(34px);
-  -ms-transform: translateX(34px);
-  transform: translateX(34px);
-}
-.slider.round {
-  border-radius: 34px;
-}
-.slider.round:before {
-  border-radius: 50%;
 }
 .buttonextra {
   border-radius: 25px;
@@ -147,8 +105,7 @@ button {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-
-  button:link {
+button:link {
   text-decoration: none;
   color: black;
 }
@@ -156,35 +113,25 @@ button {
   text-decoration: none;
   color: black;
 }
-.button4 {
+.buttonlogin {
   background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
   font-size: 0.7em;
 }
-
-.button5 {
+.buttonbig {
   height: 60px;
   width: 100px;
   padding: 2% 4%;
   font-size: 1.5em;
 }
-.button6 {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
-}
-.button6:hover {background-color: #e7e7e7;}
-
 .bignumber{
   font-size: 3em;
   margin: 0;
-  
 }
 .paddingtop{
   padding-top:5%;
 }
-
 .knaporange {
   background-color: white;
   color: black;
@@ -204,5 +151,4 @@ button {
 .knapgul:hover {background-color: #FCEE21;}
 .knaporange:hover {background-color: #F7931E;}
 .knaplysorange:hover {background-color: #FBB03B;}
-
-.button4:hover {background-color: #e7e7e7;}
+.buttonlogin:hover {background-color: #e7e7e7;}
